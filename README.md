@@ -15,9 +15,14 @@ Ce projet est une application de gestion des utilisateurs construite avec React 
 - [Node.js](https://nodejs.org/)
 - npm ou yarn
 
+
 📌 Fonctionnalités
 
 ✅ Afficher la liste des utilisateurs
+
 ✅ Ajouter un nouvel utilisateur
+
 ✅ Mettre à jour un utilisateur existant
+
 ✅ Supprimer un utilisateur
+
