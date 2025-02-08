@@ -63,5 +63,5 @@ Lancez l'application React :
 
 
 🖼️ Captures d'écran
-![Capture d'écran](https://imgur.com/a/github-image-app-EG9qsOo.png)
+![Capture d'écran](https://imgur.com/D6WBn2j.png)
 ![Capture d'écran](https://imgur.com/FdErESJ.png)
