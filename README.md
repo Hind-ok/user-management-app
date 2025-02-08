@@ -56,10 +56,12 @@ Lancez l'application React :
 🛠️ Fonctionnalités
 
 ✅ Afficher la liste des utilisateurs
+
 ✅ Ajouter un nouvel utilisateur
+
 ✅ Modifier un utilisateur existant
+
 ✅ Supprimer un utilisateur
-✅ Gérer des champs supplémentaires (âge, rôle : admin ou utilisateur)
 
 
 🖼️ Captures d'écran
