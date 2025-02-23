@@ -67,4 +67,4 @@ Lancez l'application React :
 🖼️ Captures d'écran
 ![Capture d'écran](https://imgur.com/D6WBn2j.png)
 ![Capture d'écran](https://imgur.com/FdErESJ.png)
-![Capture d'écran](https://https://imgur.com/a/connect-postgresql-eF3hkLk.png)
+![Capture d'écran](https://i.imgur.com/M9TD6aL.png)
