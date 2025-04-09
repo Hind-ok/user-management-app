@@ -2,6 +2,10 @@ const { Client } = require("pg");
 const express = require("express");
 const cors = require("cors");
 
+// 
+require('dotenv').config();
+
+
 const app = express();
 const port = 5174;
 
