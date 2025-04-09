@@ -1,0 +1,26 @@
+# services:
+#   db:
+#     image: postgres:latest
+#     environment:
+#       POSTGRES_USER: postgres
+#       POSTGRES_PASSWORD: Hindamraoui@2003
+#       POSTGRES_DB: users
+#     ports:
+#       - "5432:5432"
+#     volumes:
+#       - postgres-data:/var/lib/postgresql/data
+
+#   backend:
+#     build: ./backend
+#     ports:
+#       - "5177:5177"
+#     depends_on:
+#       - db  # Ce service dépend de PostgreSQL
+#     environment:
+#       - DATABASE_HOST=db  # Nom du service PostgreSQL défini ici comme 'db'
+#       - DATABASE_USER=postgres
+#       - DATABASE_PASSWORD=Hindamraoui@2003
+#       - DATABASE_NAME=users
+
+# volumes:
+#   postgres-data:
