@@ -33,21 +33,21 @@ jobs:
 
       # 6. Push de l'image vers Docker Hub
       - name: Login to Docker Hub
-        run: echo "Amraouihind2003" | docker login -u "hind" --password-stdin
+        run: echo "Amraouihind2003" | docker login -u "hindamraoui" --password-stdin
 
       - name: Push Docker image
-        run: docker push hind/user-management-app-backend
+        run: docker push hindamraoui/user-management-app-backend
 
       # 7. (Optionnel) Déploiement via SSH (ex : VPS Contabo)
-      - name: Deploy to VPS via SSH
-        if: ${{ secrets.SSH_PRIVATE_KEY }}
-        uses: appleboy/ssh-action@v0.1.6
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            docker pull hind/user-management-app-backend
-            docker stop backend || true
-            docker rm backend || true
-            docker run -d --name backend -p 3000:3000 hind/user-management-app-backend
+      # - name: Deploy to VPS via SSH
+      #   if: ${{ secrets.SSH_PRIVATE_KEY }}
+      #   uses: appleboy/ssh-action@v0.1.6
+      #   with:
+      #     host: ${{ secrets.SSH_HOST }}
+      #     username: ${{ secrets.SSH_USER }}
+      #     key: ${{ secrets.SSH_PRIVATE_KEY }}
+      #     script: |
+      #       docker pull hind/user-management-app-backend
+      #       docker stop backend || true
+      #       docker rm backend || true
+      #       docker run -d --name backend -p 3000:3000 hind/user-management-app-backend
