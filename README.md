@@ -18,10 +18,10 @@ Ce projet est une application full-stack de gestion des utilisateurs, développ�
 
 ## ⚡ Prérequis
 
--Node.js (https://nodejs.org/)
--Docker & Docker Compose (https://www.docker.com/)
--PostgreSQL (si en local)
--Vercel CLI (optionnel)
+- **Node.js (https://nodejs.org/)**
+- **Docker & Docker Compose (https://www.docker.com/)**
+- **PostgreSQL (si en local)**
+- **Vercel (optionnel)**
 ---
 
 ## 🚀 Installation
@@ -30,9 +30,9 @@ Ce projet est une application full-stack de gestion des utilisateurs, développ�
 
 1. **Naviguez vers le répertoire `backend`** :
 
--cd backend
--npm install
--node server.js
+- **cd backend**
+- **npm install**
+- **node server.js**
 
     🔹 Le backend sera disponible sur http://localhost:5174.
 
@@ -40,9 +40,9 @@ Ce projet est une application full-stack de gestion des utilisateurs, développ�
 
 2. **Naviguez vers le répertoire frontend :**
 
--cd frontend
--npm install
--npm run dev
+- **cd frontend**
+- **npm install**
+-- **npm run dev**
 
     🔹 L'application sera disponible sur http://localhost:5173.
 
@@ -66,13 +66,13 @@ Ce projet est une application full-stack de gestion des utilisateurs, développ�
 
 ✅ Interface responsive et moderne
 
-3. **🐳 Dockerisation (Full Project)**
+3. **🐳 Dockerisation (Full Project):**
 
--docker-compose up --build
+- **docker-compose up --build**
 
 4. **🧪 Tests**
 
--npm test
+- **npm test**
 
 🖼️ Captures d'écran
 ![Capture d'écran](https://imgur.com/D6WBn2j.png)
