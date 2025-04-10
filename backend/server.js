@@ -124,3 +124,4 @@ app.delete("/users/:id", (req, res) => {
 app.listen(port, () => {
   console.log(`Serveur backend sur http://localhost:${port}`);
 });
+module.exports = app; 
